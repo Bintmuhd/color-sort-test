@@ -11,7 +11,7 @@ interface ColorCardProps {
   detail: string;
   linkHref: string;
   linkText: string;
-  colorCode: string;
+  colorCode?: string;
 }
 
 const ColorCard: React.FC<ColorCardProps> = ({ title, description, colorCode, detail, linkText, linkHref }) => {
